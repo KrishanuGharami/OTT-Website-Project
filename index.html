@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StreamFast OTT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/webp" href="assets/favicon/favicon.webp">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>StreamFast</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#series">Series</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cta">
+            <a href="#" class="btn" id="openSignUpModal">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Modal Structure for Membership and Plan Details -->
+    <div id="membershipModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeMembershipModal">&times;</span>
+            <h2>OTT Membership & Plan Details</h2>
+            <form id="membershipForm">
+                <label for="membershipType">Membership Type:</label>
+                <select id="membershipType" name="membershipType" required>
+                    <option value="basic">Basic</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                </select>
+                
+                <label for="planDetails">Plan Details:</label>
+                <textarea id="planDetails" name="planDetails" rows="4" required>One Member + 720P</textarea>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Structure for Sign Up -->
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up for StreamFast</h2>
+            <form id="signUpForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" class="btn">Back to Top</button>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Enjoy never ending Entertainment</h1>
+            <p>Watch anywhere. Affordable plans.</p>
+            <a href="#" class="btn" id="openMembershipModal">Get Started</a>
+        </div>
+    </section>
+
+    <section class="content-section" id="movies">
+        <h2>Trending Movies</h2>
+        <div class="content-grid">
+            <!-- Movie cards will go here -->
+            <div class="card">
+                <video height="150" src="assets/videos/video1.mp4" poster="assets/images/movie1.jpg" controls></video>
+                <h3>Srikant (2024)</h3>
+            </div>
+            <div class="card">
+                <video height="150" src="assets/videos/video2.mp4" poster="assets/images/movie2.jpg" controls></video>
+                <h3>Maharaja (2024)</h3>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+    <section class="content-section" id="series">
+        <h2>Popular Series</h2>
+        <div class="content-grid">
+            <!-- Series cards will go here -->
+            <div class="card">
+                <video height="150" src="assets/videos/video3.mp4" poster="assets/images/series1.png" controls></video>
+                <h3>IC814 (2024)</h3>
+            </div>
+            <div class="card">
+                <video height="150" src="assets/videos/video4.mp4" poster="assets/images/series2.png" controls></video>
+                <h3>The Railway Men (2023)</h3>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: support@streamfast.com | Phone: +91-9752869181</p>
+            <ul class="social-icons">
+                <li><a href=https://www.facebook.com/profile.php?id=100070589559250><img src="assets/icons/facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href=https://www.youtube.com/@StreamFastOTT/videos><img src="assets/icons/youtube-icon.png" alt="YouTube"></a></li>
+                <li><a href="https://www.instagram.com/streamfastott"><img src="assets/icons/instagram-icon.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
