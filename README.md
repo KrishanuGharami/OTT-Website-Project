@@ -66,5 +66,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 For inquiries or feedback, feel free to reach out:
 - **Email**: 24krishanugharami@gmail.com
-- **GitHub**: [KrishanuGharami](https://github.com/KrishanuGharami)
+- **GitHub**: [Krishanu Gharami](https://github.com/KrishanuGharami)
 
