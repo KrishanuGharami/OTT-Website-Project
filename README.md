@@ -56,9 +56,6 @@ Contributions are welcome! If you have suggestions for improvement:
 2. Create a new branch for your feature or bugfix.
 3. Submit a pull request with a detailed explanation of changes.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ## Acknowledgments
 - Design inspiration from leading OTT platforms.
 - Icons and assets from [FontAwesome](https://fontawesome.com/) and [Unsplash](https://unsplash.com/).
