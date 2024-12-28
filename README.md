@@ -27,11 +27,11 @@ To run this project locally, ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ott-website-project.git
+   git clone https://github.com/KrishanuGharami/OTT-Website-Project.git 
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ott-website-project
+   cd OTT-Website-Project.git 
    ```
 3. Open the `index.html` file in your browser to view the website locally.
 
