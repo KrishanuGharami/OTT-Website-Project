@@ -40,9 +40,10 @@ The project is already deployed on [Vercel](https://vercel.com/). To redeploy:
 1. Link the repository to your Vercel account.
 2. Deploy the main branch directly for automatic updates.
 
-## Screenshots
-![Screenshot 1](https://ott-website-project.vercel.app/screenshot1.png)
-![Screenshot 2](https://ott-website-project.vercel.app/screenshot2.png)
+## 📸 Screenshots
+| Desktop View                                 | Mobile View                                |
+| -------------------------------------------- | ------------------------------------------ |
+| ![Desktop]() | ![Mobile]() |
 
 ## Roadmap
 - Add user authentication and profiles.
