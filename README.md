@@ -43,7 +43,8 @@ The project is already deployed on [Vercel](https://vercel.com/). To redeploy:
 ## 📸 Screenshots
 | Desktop View                                 | Mobile View                                |
 | -------------------------------------------- | ------------------------------------------ |
-| ![Desktop]() | ![Mobile]() |
+| ![Desktop](https://github.com/user-attachments/assets/0ac05e52-f07e-43b7-bd6d-f265774ecbe4) | ![Mobile]() |
+
 
 ## Roadmap
 - Add user authentication and profiles.
