@@ -1,6 +1,6 @@
 # OTT Website Project
 
-![Website Preview](KrishanuGharami/OTT-Website-Project/assets/favicon/favicon.webp)  
+![Website Preview](https://github.com/user-attachments/assets/bd715fc3-fa1b-4f9a-af74-c1ca0795caed) 
 **Live Demo**: [ott-website-project.vercel.app](https://ott-website-project.vercel.app/)
 
 ## Overview
